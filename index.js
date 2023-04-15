@@ -1,3 +1,4 @@
+//export
 function getMonth(x) {
   if (x === 1) console.log("январь");
   if (x === 2) console.log("февраль");
@@ -11,6 +12,8 @@ function getMonth(x) {
   if (x === 10) console.log("октябрь");
   if (x === 11) console.log("ноябрь");
   if (x === 12) console.log("декабрь");
-  console.log("Что-то не так (неваерное число месяца)");
+  else {
+    console.log("Что-то не так");
+  }
 }
 module.exports = getMonth;
